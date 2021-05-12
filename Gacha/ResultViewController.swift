@@ -25,7 +25,7 @@ class ResultViewController: UIViewController {
         if number == 9{
             //激レアモンスター
             monsterImageView.image = UIImage(named: "monster010")
-            backgroundImageView.image = UIImage(named: "bd_gold")
+            backgroundImageView.image = UIImage(named: "bg_gold")
         }else if number > 7{
             //レアモンスター
             monsterImageView.image = UIImage(named: "monster006")
